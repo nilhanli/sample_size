@@ -19,5 +19,5 @@ Experiments were conducted over a publicly available dataset.[^1]
 
 The results generated from this research can be found in the following files:
 
-- **results.csv** - Area Under Curve performances over varying sample sizes and feature counts.
-- **feature_importances.csv** - Calculated feature importances that were calculated from Random Forest and used in feature selection.
+- **results.csv** - The are under the curve (AUC) of the training and test sets for each combination of sample size and feature count over 10 repetitions.
+- **feature_importances.csv** - Feature importances calculated from Random Forest.
