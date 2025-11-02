@@ -17,7 +17,6 @@ Experiments were conducted over a publicly available dataset.[^1]
 
 ## Results
 
-The results generated from this research can be found in the following files:
+The results generated from this research can be found in the following file:
 
-- **results.csv** - The are under the curve (AUC) of the training and test sets for each combination of sample size and feature count over 10 repetitions.
-- **feature_importances.csv** - Feature importances calculated from Random Forest.
+- **results.csv** - The mean are under the curve (AUC) values of the training and test sets for each combination of sample size and feature count over 10 repetitions.
