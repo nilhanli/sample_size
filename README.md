@@ -19,7 +19,7 @@ Experiments were conducted over a publicly available dataset.[^1]
 
 The results generated from this research can be found in the following file:
 
-- 'results.csv' - The mean are under the curve (AUC) values of the training and test sets for each combination of sample size and feature count over 10 repetitions.
+- `results.csv`: The mean are under the curve (AUC) values of the training and test sets for each combination of sample size and feature count over 10 repetitions.
 
-[results.csv] (https://github.com/nilhanli/sample_size/blob/d520291c55513a32003d9a165c5e9b56463747fb/results.csv)
+[results.csv](https://github.com/nilhanli/sample_size/blob/d520291c55513a32003d9a165c5e9b56463747fb/results.csv)
 
