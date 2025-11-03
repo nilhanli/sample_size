@@ -17,7 +17,13 @@ Experiments were conducted over a publicly available dataset.[^1]
 
 ## Results
 
-According to the logistic regression analysis, 46 variables were found to be significant predictors of diabetic neuropathy, as follows: sex, age, HbA1c, malignant neoplasms, thyroid diseases, anemia, vitamin deficiencies, disorders of lipoprotein metabolism and other lipidemias, other endocrine disorders, depression, anxiety disorder, retinopathies, other eye diseases, hypertension, cerebrovascular diseases, other circulatory diseases, gastro-oesophageal reflux disease, other digestive diseases, musculoskeletal and connective tissue diseases, renal failure, other digestive drugs (e.g., vitamins, supplements, tonics, anabolic agents, appetite stimulants), lipid-modifying agents, genitourinary system drugs, musculoskeletal system drugs, antiparkinson drugs, antipsychotics, psychoanaleptics, respiratory system drugs, sensory organ drugs, dapagliflozin, exenatide, gliclazide, glimepiride, insulin aspart, insulin detemir, insulin glargine, insulin glulisine, insulin lispro, linagliptin, metformin, nateglinide, pioglitazone, repaglinide, saxagliptin, sitagliptin, vildagliptin.
+According to the logistic regression analysis, 46 variables were identified as significant predictors of diabetic neuropathy. These variables are presented below:
+
+| **Category** | **Variables** |
+|---------------|---------------|
+| **Demographic / Clinical** | Sex, Age, HbA1c |
+| **Comorbidities** | Malignant neoplasms, Thyroid diseases, Anemia, Vitamin deficiencies, Disorders of lipoprotein metabolism and other lipidemias, Other endocrine disorders, Depression, Anxiety disorder, Retinopathies, Other eye diseases, Hypertension, Cerebrovascular diseases, Other circulatory diseases, Gastro-oesophageal reflux disease, Other digestive diseases, Musculoskeletal and connective tissue diseases, Renal failure |
+| **Medications** | Other digestive drugs (e.g., vitamins, supplements, tonics, anabolic agents, appetite stimulants), Lipid-modifying agents, Genitourinary system drugs, Musculoskeletal system drugs, Antiparkinson drugs, Antipsychotics, Psychoanaleptics, Respiratory system drugs, Sensory organ drugs, Dapagliflozin, Exenatide, Gliclazide, Glimepiride, Insulin aspart, Insulin detemir, Insulin glargine, Insulin glulisine, Insulin lispro, Linagliptin, Metformin, Nateglinide, Pioglitazone, Repaglinide, Saxagliptin, Sitagliptin, Vildagliptin |
 
 The mean are under the curve (AUC) values of the training and test sets can be found in the following file:
 
