@@ -17,9 +17,11 @@ Experiments were conducted over a publicly available dataset.[^1]
 
 ## Results
 
-The results generated from this research can be found in the following file:
+According to the logistic regression analysis, 46 variables were found to be significant predictors of diabetic neuropathy, as follows: sex, age, HbA1c, malignant neoplasms, thyroid diseases, anemia, vitamin deficiencies, disorders of lipoprotein metabolism and other lipidemias, other endocrine disorders, depression, anxiety disorder, retinopathies, other eye diseases, hypertension, cerebrovascular diseases, other circulatory diseases, gastro-oesophageal reflux disease, other digestive diseases, musculoskeletal and connective tissue diseases, renal failure, other digestive drugs (e.g., vitamins, supplements, tonics, anabolic agents, appetite stimulants), lipid-modifying agents, genitourinary system drugs, musculoskeletal system drugs, antiparkinson drugs, antipsychotics, psychoanaleptics, respiratory system drugs, sensory organ drugs, dapagliflozin, exenatide, gliclazide, glimepiride, insulin aspart, insulin detemir, insulin glargine, insulin glulisine, insulin lispro, linagliptin, metformin, nateglinide, pioglitazone, repaglinide, saxagliptin, sitagliptin, vildagliptin.
 
-- `results.csv`: The mean are under the curve (AUC) values of the training and test sets for each combination of sample size and feature count over 10 repetitions.
+The mean are under the curve (AUC) values of the training and test sets can be found in the following file:
+
+- `results.csv`: The AUC values of the training and test sets for each combination of sample size and feature count over 10 repetitions.
 
 [results.csv](https://github.com/nilhanli/sample_size/blob/d520291c55513a32003d9a165c5e9b56463747fb/results.csv)
 
