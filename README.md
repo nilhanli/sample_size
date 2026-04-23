@@ -25,8 +25,8 @@ According to the logistic regression analysis, 46 variables were identified as s
 | **Comorbidities** | Malignant neoplasms, Thyroid diseases, Anemia, Vitamin deficiencies, Disorders of lipoprotein metabolism and other lipidemias, Other endocrine disorders, Depression, Anxiety disorder, Retinopathies, Other eye diseases, Hypertension, Cerebrovascular diseases, Other circulatory diseases, Gastro-oesophageal reflux disease, Other digestive diseases, Musculoskeletal and connective tissue diseases, Renal failure |
 | **Medications** | Other digestive drugs (e.g., vitamins, supplements, tonics, anabolic agents, appetite stimulants), Lipid-modifying agents, Genitourinary system drugs, Musculoskeletal system drugs, Antiparkinson drugs, Antipsychotics, Psychoanaleptics, Respiratory system drugs, Sensory organ drugs, Dapagliflozin, Exenatide, Gliclazide, Glimepiride, Insulin aspart, Insulin detemir, Insulin glargine, Insulin glulisine, Insulin lispro, Linagliptin, Metformin, Nateglinide, Pioglitazone, Repaglinide, Saxagliptin, Sitagliptin, Vildagliptin |
 
-The mean are under the curve (AUC) values of the training and test sets can be found in the following file:
+The mean receiver operating characteristic area under the curve (ROC AUC) and precision-recall area under the curve (PR AUC) values of the training and test sets can be found in the following file:
 
-- `results.csv`: The AUC values of the training and test sets for each combination of sample size and feature count over 10 repetitions.
+- `results.csv`: The ROC AUC and PR AUC values of the training and test sets for each combination of sample size and feature count over 10 repetitions.
 
-[results.csv](https://github.com/nilhanli/sample_size/blob/1844171d12aedc21d99c4cc9f8acd58f8b3f3333/results.csv)
+[results.csv](https://github.com/nilhanli/sample_size/blob/7a3989a3903c4abc0d16bb4d908323ce57faa6b3/results.csv)
